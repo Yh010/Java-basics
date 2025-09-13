@@ -1,7 +1,8 @@
 package com.yash.learning.game;
 
 public class GameRunner {
-    MarioGame game;
+    private MarioGame game; // GameRunner class is tighly coupled to mariogame here. if we want to change
+                            // the game, we need to change this line as well
 
     public GameRunner(MarioGame game) {
         this.game = game;
