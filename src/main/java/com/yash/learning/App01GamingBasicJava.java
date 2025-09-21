@@ -5,7 +5,7 @@ import com.yash.learning.game.PacManGame;
 //import com.yash.learning.game.MarioGame;
 //import com.yash.learning.game.SuperContraGame;
 
-public class AppGamingBasicJava {
+public class App01GamingBasicJava {
     public static void main(String[] args) {
         // var game = new SuperContraGame();
         var game = new PacManGame();
