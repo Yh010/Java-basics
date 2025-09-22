@@ -25,4 +25,10 @@ public class HelloWorldConfiguration {
         var person = new Person("rajesh", 10);
         return person;
     }
+
+    @Bean
+    public Person personToMethodCall() {
+        var person = new Person(name(), age());
+        return person;
+    }
 }
